@@ -1,0 +1,134 @@
+.App {
+  padding: 5px;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+  background-position: top left;
+  background-size: fit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.basket {
+  margin: 10px;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  background-color: white;
+}
+.promotion {
+  background: red;
+  margin-top: 15px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+.basket {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0);
+  padding: 15px;
+  margin: 10px;
+  font-size: 14pt;
+}
+.basket strike {
+  margin-left: 5px;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 12pt;
+}
+.basket ul {
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.basket ul li {
+  margin: 10px;
+  padding: 20px 16px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 99px;
+  font-size: 10pt;
+}
+
+.catalogue {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0 5px;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 4px;
+  width: 48%;
+  max-width: 220px;
+  margin: 1%;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h3 {
+  font-size: 14pt;
+  margin: 0;
+  padding: 15px;
+}
+
+.product-card p {
+  font-size: 12pt;
+  padding: 15px;
+  margin: 0;
+  font-style: italic;
+}
+
+.product-card .price {
+  display: inline-block;
+  margin: 10px 15px;
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+.product-card .quantity-box {
+  margin: 10px 10px 15px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product-card .quantity-box button {
+  border: 0;
+  background: rgb(132, 158, 168);
+  color: #fff;
+  margin: 0;
+  border-radius: 999px;
+}
+
+.product-card .quantity-box input {
+  width: 50px;
+  height: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  text-align: center;
+  margin: 0 2px 0 2px;
+  padding: 2px;
+}
+.card-img {
+  max-width: 60px;
+  height: 60px;
+}
+
+.page-desc {
+  margin: 20px;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background-color: white;
+}
+header h1 {
+  font-style: italic;
+  margin: 0;
+  letter-spacing: -0.03em;
+  color: rgb(12, 13, 14);
+}
